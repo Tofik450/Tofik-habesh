@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Clothes Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Welcome to Traditional Clothes Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Experience the Beauty of Tradition</h2>
+            <p>Explore our collection of authentic traditional clothing.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="traditional-dress1.jpg" alt="Traditional Dress 1">
+                    <h3>Dress 1</h3>
+                    <p>$50</p>
+                </div>
+                <div class="product">
+                    <img src="traditional-dress2.jpg" alt="Traditional Dress 2">
+                    <h3>Dress 2</h3>
+                    <p>$60</p>
+                </div>
+                <div class="product">
+                    <img src="traditional-dress3.jpg" alt="Traditional Dress 3">
+                    <h3>Dress 3</h3>
+                    <p>$70</p>
+          </div>
+    </section>
+
+  <!--Tab to edit-->
+</section id="list" class="productlite">
+<div class="containers">
+       <div class="products list">
+       <div class="productes"
+         <!--Tab to edit-->
+       
+    <img src="traditional-dress1.jpg" alt="Traditional Dress 1">
+    <h3>Dress 5</h3>
+    <p>$50</p>
+    </div>
+      <div class="productes">
+    <img src="traditional-dress1.jpg" alt="Traditional Dress 3">
+    <h3>Dress 6</h3>
+    <p>$50</p>
+    
+      <!--Tab to edit-->
+    </div>
+      <div class="productes">
+    <img src="traditional-dress1.jpg" alt="Traditional Dress 4">
+    <h3>Dress 7</h3>
+    <p>$50</p>
+    
+  </div>
+  </div>
+  </div>
+  </section>
+  
+  
+  
+  
+  
+    <!--Tab to edit-->
+  <section id="uploding" class="uplode">
+    <input type="file" accept="image/*" onchange="loadFile(event)">
+<img id="output" />
+<script>
+  var loadFile = function(event) {
+    var output = document.getElementById('output');
+    output.src = URL.createObjectURL(event.target.files[0]);
+  };
+</script>
+  </section>
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are dedicated to preserving and promoting traditional clothing from around the world. Our mission is to bring you high-quality, culturally rich garments that tell a story.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <h3>
+             Phone: +251915859199 <!--Tab to edit-->
+            </h3>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Traditional Clothes Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
